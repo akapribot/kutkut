@@ -1,6 +1,14 @@
 *.class
 
 # Package Files #
-*.jar
 *.war
 *.ear
+
+# netbeans
+/nbproject
+
+# various other potential build files
+/build
+/bin
+/dist
+/manifest.mf
