@@ -8,8 +8,9 @@ As written in Java, you can run it (virtually) on any platform, including <stron
 
 <h2>Download</h2>
 <strong>v0.1 Initial release</strong><br>
-Code same as CharlieBot but ships with latest AIML (brain) files of Alice. 
-Enjoy talking to the new and updated Alice!
+Code same as CharlieBot but ships with latest AIML (brain) files of Alice.<br>
+Enjoy talking to the new and updated Alice!<br>
+https://github.com/downloads/akapribot/kutkut/KutKut%20ChatBot%20v0.1.zip
 
 <h2>Requirements</h2>
 
