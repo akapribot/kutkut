@@ -6,6 +6,10 @@ and receive chat messages.<br>
 
 As written in Java, you can run it (virtually) on any platform, including <strong>Windows, Linux, Mac OS, and *BSD</strong>.
 
+<h2>Download</h2>
+<strong>v0.1 Initial release</strong><br>
+Code same as CharlieBot but ships with latest AIML (brain) files of Alice. 
+Enjoy talking to the new and updated Alice!
 
 <h2>Requirements</h2>
 
