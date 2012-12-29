@@ -2,7 +2,7 @@
  * Show a list dialog for Kutkut's graphical shell.
  * Dialog for listing various options, like list of available bots, etc.
  * 
- * @author Ashutosh Kumar Singh (me@AKSingh.net)
+ * @author Ashutosh Kumar Singh [me@AKSingh.net]
  * @version 1.0 2012/12/23
  */
 
