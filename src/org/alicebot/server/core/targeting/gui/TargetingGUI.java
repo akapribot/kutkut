@@ -370,7 +370,7 @@ public class TargetingGUI extends JPanel
 
     private void updateTitle()
     {
-        frame.setTitle("AIML Targeting Tool, Charliebot version " + "4.1.8" + " - " + targetingTool.getTargetsDataPath());
+        frame.setTitle("AIML Targeting Tool, " + com.kutkut.core.Constants.getTitle() + " - " + targetingTool.getTargetsDataPath());
     }
 
     public void viewTargets()
@@ -403,7 +403,7 @@ public class TargetingGUI extends JPanel
     private static JMenuBar menuBar;
     public JLabel statusBar;
     private static final Object HELP_MESSAGE[] = {
-        "AIML Targeting Tool", "Charliebot version " + "4.1.8", "(c) A.L.I.C.E. AI Foundation (http://alicebot.org)"
+        "AIML Targeting Tool", (Object) com.kutkut.core.Constants.getTitle(), "(c) A.L.I.C.E. AI Foundation (http://alicebot.org)"
     };
     private static final ImageIcon aliceLogo = new ImageIcon(ClassLoader.getSystemResource("org/alicebot/icons/aliceLogo.jpg"));
     private static final ImageIcon aliceIcon = new ImageIcon(ClassLoader.getSystemResource("org/alicebot/icons/aliceIcon.jpg"));

@@ -118,7 +118,7 @@ public class Globals
 
     public static String getVersion()
     {
-        return version;
+        return com.kutkut.core.Constants.getVersion();
     }
 
     public static String getStartupFilePath()
@@ -307,7 +307,6 @@ public class Globals
     private static boolean haveAHeart;
     private static int targetSkip;
     private static boolean useTargeting;
-    private static String version = "4.1.8";
     private static String hostName;
     private static int httpPort;
     private static String javaScriptInterpreter;

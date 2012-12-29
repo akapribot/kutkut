@@ -11,7 +11,7 @@ public class AliceChatListenerRegistry extends ClassRegistry
 
     private AliceChatListenerRegistry()
     {
-        super("4.1.8", PROCESSOR_LIST, "org.alicebot.server.net.listener.AliceChatListener");
+        super(com.kutkut.core.Constants.getVersion(), PROCESSOR_LIST, "org.alicebot.server.net.listener.AliceChatListener");
     }
 
     public static AliceChatListenerRegistry getSelf()
@@ -19,7 +19,6 @@ public class AliceChatListenerRegistry extends ClassRegistry
         return self;
     }
 
-    private static final String VERSION = "4.1.8";
     private static final String PROCESSOR_LIST[] = {
         "org.alicebot.server.net.listener.AliceAIM", "org.alicebot.server.net.listener.AliceICQ", "org.alicebot.server.net.listener.AliceIRC"
     };

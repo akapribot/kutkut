@@ -264,8 +264,8 @@ public class Graphmaster
         loadtime = false;
         if(Globals.showConsole())
             Log.userinfo(Bots.getCount() + " bots thinking with " + TOTAL_CATEGORIES + " categories.", Log.STARTUP);
-        Trace.insist(COPYRIGHT);
-        Log.userinfo("Charliebot version 4.1.8 Build [00]", Log.STARTUP);
+        Trace.insist(com.kutkut.core.Constants.getCopyrightInfo());
+        Log.userinfo(com.kutkut.core.Constants.getTitle(), Log.STARTUP);
     }
 
     public static void shutdown()
@@ -462,11 +462,6 @@ public class Graphmaster
         return (String)WORKING_DIRECTORY.peek();
     }
 
-    public static final String COPYRIGHT[] = {
-        "Alicebot (c) 1995-2002 A.L.I.C.E. AI Foundation", "All Rights Reserved.", "This program is free software; you can redistribute it and/or", "modify it under the terms of the GNU General Public License", "as published by the Free Software Foundation; either version 2", "of the License, or (at your option) any later version."
-    };
-    public static final String VERSION = "4.1.8";
-    public static final String BUILD = "00";
     public static final String TEMPLATE = "<template>";
     public static final String THAT = "<that>";
     public static final String TOPIC = "<topic>";
@@ -492,7 +487,7 @@ public class Graphmaster
     private static Set ACTIVATED_NODES = new HashSet();
     public static final String ACTIVATIONS = "<activations>";
     protected static int RESPONSE_TIMEOUT;
-
+    
     static 
     {
         WORKING_DIRECTORY = new Stack();

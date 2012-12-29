@@ -45,7 +45,7 @@ public class AliceServer
         {
             if(Globals.showConsole())
             {
-                Log.userinfo("Starting Charliebot version " + Globals.getVersion(), Log.STARTUP);
+                Log.userinfo("Starting " + com.kutkut.core.Constants.getTitle(), Log.STARTUP);
                 Log.userinfo("Using Java VM " + System.getProperty("java.vm.version") + " from " + System.getProperty("java.vendor"), Log.STARTUP);
                 Log.userinfo("On " + System.getProperty("os.name") + " version " + System.getProperty("os.version") + " (" + System.getProperty("os.arch") + ")", Log.STARTUP);
                 Log.userinfo("Predicates with no values defined will return: \"" + Globals.getPredicateEmptyDefault() + "\".", Log.STARTUP);
