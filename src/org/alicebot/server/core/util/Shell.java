@@ -48,7 +48,12 @@ public class Shell
 
     public void run()
     {
-        showConsole("Interactive shell: type \"/exit\" to shut down; \"/help\" for help.");
+        /**
+         * Kutkut Chatbot won't display this message and instead has a menu option for the same.
+         * @version 0.2 2012/12/31
+         */
+        //showConsole("Interactive shell: type \"/exit\" to shut down; \"/help\" for help.");
+        
         Bot bot = Bots.getFirstBot();
         if(bot == null)
         {

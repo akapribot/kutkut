@@ -4,11 +4,14 @@ import javax.swing.ImageIcon;
 
 /**
  * Store constants of the chatbot.
- * Store the required constants of the program such as details,
+ * Store the required constants of the program and provide functions 
+ * to get access to the constants.
+ * 
+ * Examples of constants are program and author info, 
  * version information, dialog box messages, etc.
  * 
  * @author Ashutosh Kumar Singh [me@AKSingh.net]
- * @version 1.0 2012/12/28
+ * @version 1.0 2012/12/31
  */
 
 public class Constants {
@@ -121,8 +124,7 @@ public class Constants {
         TITLE, 
         COPYRIGHT_TEXT, 
         "All Rights Reserved.", 
-        "This program is free software (with exceptions to Sally bot); ", 
-        "you can redistribute it and/or", 
+        "This program is free software; you can redistribute it and/or", 
         "modify it under the terms of the GNU General Public License", 
         "as published by the Free Software Foundation; either version 2", 
         "of the License, or (at your option) any later version."
@@ -134,13 +136,12 @@ public class Constants {
         COPYRIGHT_TEXT, 
         "All Rights Reserved", " ", 
         "Homepage: " + WEBSITE, " ", 
-        "License: GNU GPLv2 (or later version) with exceptions to ", 
-        "Sally bot (including its AIML files).", 
-        "(check License for details)", " ", 
+        "License: GNU GPLv2", " ", 
         "What's new in this version :-", 
-        "1. New graphical interface", 
+        "1. Re-designed graphical interface", 
         "2. Theme chooser with three in-built themes", 
-        "3. Sally bot - Kutkut's own version of Alice bot", " "
+        "3. Better Pause feature", 
+        "4. Sally bot - Kutkut's own version of Alice bot", " "
     };
     
     private static final String MESSAGE_COMMANDS[] = {
@@ -179,8 +180,7 @@ public class Constants {
         NAME, 
         COPYRIGHT_TEXT, 
         "All Rights Reserved", " ", 
-        "This program is free software (with exceptions to Sally bot);", 
-        "you can redistribute it and/or", 
+        "This program is free software; you can redistribute it and/or", 
         "modify it under the terms of the GNU General Public License", 
         "as published by the Free Software Foundation; either version 2", 
         "of the License, or (at your option) any later version.", 
@@ -203,12 +203,5 @@ public class Constants {
         "Sally is young and charming girl. She has good", 
         "knowledge about computers. She love to talk and chat", 
         "with you.", " ", 
-        "License:", 
-        "You can ONLY use Sally bot and its files (AIMLs and XMLs)", 
-        "with Kutkut Chatbot only as is provided and you can NOT, ", 
-        "under any whatsoever conditions copy, edit, modify, ", 
-        "distribute or use the Sally bot's files (AIMLs and XMLs)", 
-        "in any other way with Kutkut Chatbot or with any other", 
-        "program or software or other computer code."  
     };
 }
