@@ -13,9 +13,5 @@
 /dist
 /manifest.mf
 /lib/CopyLibs/
-/lib/js.jar
-/lib/mysql_comp.jar
 /lib/nblibraries.properties
-/lib/servlet.jar
-/lib/org.mortbay.jetty.jar
 /build.xml
