@@ -10,6 +10,7 @@ As written in Java, you can run it (virtually) on any platform, including <stron
 <strong>v0.2 Second release</strong><br>
 Re-designed graphical interface, theme chooser with three in-built themes, better Pause feature, 
 and Sally bot, Kutkut's own version of the Alice bot.<br>
+https://sourceforge.net/projects/kutkut/files/latest/download
 
 <h2>Features</h2>
 1. Re-designed graphical interface
