@@ -1,16 +1,21 @@
-<h1>KutKut ChatBot</h1>
+<h1>Kutkut Chatbot</h1>
 
-<h3>KutKut ChatBot is a chatter bot,</h3>
+<h3>Kutkut Chatbot is a chatter bot,</h3>
 developed to chat with you using artificial intelligence. You can chat with this program as you talk to a human. It features a GUI interface to send 
 and receive chat messages.<br>
 
 As written in Java, you can run it (virtually) on any platform, including <strong>Windows, Linux, Mac OS, and *BSD</strong>.
 
 <h2>Download</h2>
-<strong>v0.1 Initial release</strong><br>
-Code same as CharlieBot but ships with latest AIML (brain) files of Alice.<br>
-Enjoy talking to the new and updated Alice!<br>
-https://github.com/downloads/akapribot/kutkut/KutKut%20ChatBot%20v0.1.zip
+<strong>v0.2 Second release</strong><br>
+Re-designed graphical interface, theme chooser with three in-built themes, better Pause feature, 
+and Sally bot, Kutkut's own version of the Alice bot.<br>
+
+<h2>Features</h2>
+1. Re-designed graphical interface
+2. Pause conversation
+3. Theme chooser with three in-built themes
+4. Sally bot, Kutkut's own customized version of Alice bot
 
 <h2>Requirements</h2>
 
@@ -29,17 +34,20 @@ Recommended: 50 MB<br>
 
 <h2>Version History</h2>
 
-<strong>0.1 - Alice by Intelligence</strong><br>
-KutKut ChatBot version 0.1 is the initial release. Latest AIML files (brain of the chatter bot) from Alice have been provided with this release.
+<strong>0.2: Re-designed graphical interface</strong><br>
+Kutkut Chatbot version 0.2 is the second release featuring re-designed graphical interface, theme chooser with 3 in-built themes, better Pause feature, and Sally bot, Kutkut's own customized version of the Alice bot.
+
+<strong>0.1: Alice by Intelligence</strong><br>
+Kutkut Chatbot version 0.1 is the initial release. Latest AIML files (brain of the chatter bot) from Alice have been provided with this release.
 
 
 <h2> FAQ </h2>
 
-<strong>1. Why KutKut ChatBot?</strong><br>
-Ans: Most of the ALICE implementations are either web-centric or console-based, but KutKut ChatBot is a desktop-oriented software having a graphical interface for making chats.
+<strong>1. Why Kutkut Chatbot?</strong><br>
+Ans: Most of the ALICE implementations are either web-centric or console-based, but Kutkut Chatbot is a desktop-oriented software having a graphical interface for making chats.
 
-<strong>2. Why Java was chosen to develop KutKut ChatBot?</strong><br>
-Ans: Java is the best choice as a programming language when it comes to platform-independence, i.e., same program can run on many platforms. Java was chosen to develop KutKut ChatBot so that you can run it on all of your systems, no matter what you use – Windows, Linux, Mac OS, or *BSD.
+<strong>2. Why Java was chosen to develop Kutkut Chatbot?</strong><br>
+Ans: Java is the best choice as a programming language when it comes to platform-independence, i.e., same program can run on many platforms. Java was chosen to develop Kutkut Chatbot so that you can run it on all of your systems, no matter what you use – Windows, Linux, Mac OS, or *BSD.
 
 
 <h2>Developer</h2>
@@ -54,7 +62,7 @@ Website: <a href="http://www.AKSingh.net/" title="Ashutosh Kumar Singh">www.AKSi
 
 <h2>Credits</h2>
 
-KutKut ChatBot is direct descendant of CharlieBot, which in turn is based on ANNA, which was developed from Program D, which derived from ALICE.
+Kutkut Chatbot is direct descendant of CharlieBot, which in turn is based on ANNA, which was developed from Program D, which derived from ALICE.
 
 1. CharlieBot
 2. ANNA
@@ -64,11 +72,8 @@ KutKut ChatBot is direct descendant of CharlieBot, which in turn is based on ANN
 
 <h2>License</h2>
 
-KutKut ChatBot – Chatter bot developed to chat with you.<br>
-Copyright (C)2012 Ashutosh Kumar Singh (me@AKSingh.net)
-
-KutKut ChatBot is licensed under GNU GPLv2 except the libraries.
-(See the file License.txt for details.)
+Kutkut Chatbot<br>
+Copyright (C)2012 Ashutosh Kumar Singh [me@AKSingh.net]
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -83,3 +88,5 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+See the file COPYING for details.
